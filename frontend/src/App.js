@@ -28,7 +28,7 @@ function App() {
       <NavBar />
       <div className='page-container'>
           <Routes>
-            <Route path='/' element={<Home />}/>
+            <Route path='/' element={<Home allDogs={allDogs}/>}/>
             <Route path='/dogs' element={<DogsPage allDogs={allDogs} />}/>
             <Route path='/checkout' element={<Cart />}/>
           </Routes>

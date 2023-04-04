@@ -4,50 +4,50 @@ const app = express();
 const dogs = [
   {
     id: 1,
-    name: "Tini",
-    breed: "CHIHUAHUA",
-    price: "1000",
-    description: "This is a crazy tiny dog with big alien eyes",
+    name: "Theory",
+    breed: "Ragdoll",
+    price: "200",
+    description: "Ragdoll cats love their humans and thrive on interactive play",
     imageUrl:
-      "https://images.unsplash.com/photo-1605639156481-244775d6f803?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "https://www.pumpkin.care/wp-content/uploads/2022/01/ragdoll-cat_best-cats-for-kids-1024x536.jpeg",
   },
   {
     id: 2,
     name: "Butty",
-    breed: "CORGI",
-    price: "1500",
-    description: "This is a cute dog with a heart-shaped butt",
+    breed: "American Shorthair",
+    price: "500",
+    description: "An affectionate breed, American Shorthair cats are known for being friendly, laid-back, and gentle pets",
     imageUrl:
-      "https://images.unsplash.com/photo-1597633425046-08f5110420b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://www.pumpkin.care/wp-content/uploads/2022/01/american-shorthair-1024x536.jpeg",
   },
   {
     id: 3,
     name: "Pity",
-    breed: "PITBULL",
-    price: "2500",
+    breed: "Birman",
+    price: "2200",
     description:
-      "A dangerous breed but everyone loves to have one of them cause they look cool",
+      "Known for being easy going, gentle, and curious, Birman cats are as sociable as they come",
     imageUrl:
-      "https://images.unsplash.com/photo-1571868094976-6af3b50b43bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://www.pumpkin.care/wp-content/uploads/2022/01/birman-cat_best-cats-for-kids-1024x536.jpg",
   },
   {
     id: 4,
     name: "Puggy",
-    breed: "PUG",
-    price: "1700",
+    breed: "Maine Coon",
+    price: "1200",
     description:
-      "A sad looking dog that actually very energetic and love being cuddled",
+      "Well known for their size, Maine Coon cats are large cats with larger personalities",
     imageUrl:
-      "https://images.unsplash.com/photo-1535909339361-ef56e179d637?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://www.pumpkin.care/wp-content/uploads/2022/01/maine-coon_best-cats-for-kids-1024x536.jpeg",
   },
   {
     id: 5,
     name: "Mally",
-    breed: "MALTESE",
-    price: "2000",
-    description: "A maltese dog",
+    breed: "Abyssinian ",
+    price: "2600",
+    description: "Master manipulators when it comes to their owners",
     imageUrl:
-      "https://images.unsplash.com/photo-1508532566027-b2032cd8a715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFsdGVzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "https://www.pumpkin.care/wp-content/uploads/2022/01/abyssinian-cat_best-cats-for-kids-1024x536.jpg",
   },
   {
     id: 6,
