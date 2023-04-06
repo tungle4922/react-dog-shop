@@ -15,7 +15,7 @@ function App() {
 
   useEffect(()=> {
     async function getData() {
-      const res = await axios.get("https://react-pet-shop-server.onrender.com/v1/mydog");
+      const res = await axios.get("https://react-pet-shop-backend.vercel.app/v1/mydog");
       return res;
     }
     getData().then((res)=>setAllDogs(res.data));
